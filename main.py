@@ -25,4 +25,5 @@ async def on_message(message):
 async def hello(ctx):
     await ctx.send('Hello!')
 
-client.run(discord_key)
+if __name__ == '__main__':
+    client.run(discord_key)
