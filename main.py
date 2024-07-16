@@ -1,6 +1,10 @@
 from secrets import discord_key
 from discord import app_commands
+from discord.ext import commands
+import random
+import json
 from my_client import EclipsedGroovy
+from functions import roll_agent
 import discord
 
 intents = discord.Intents.default()
@@ -22,8 +26,17 @@ async def on_message(message):
 
 
 @client.tree.command()
-async def hello(ctx):
-    await ctx.send('Hello!')
+async def hello(ctx: discord.Interaction):
+    await ctx.response.send_message('Hello!')
+
+@client.tree.command()
+async def agent(ctx: discord.Interaction, agent_role: str = None):
+    rolled_agent = roll_agent(agent_role)
+    if agent_role is None:
+        print(f'{ctx.user} has rolled {rolled_agent} in the agent roll')
+    else:
+        print(f'{ctx.user} has rolled {rolled_agent} in the agent roll with {agent_role}')
+    await ctx.response.send_message(f'You Rolled {rolled_agent}')
 
 if __name__ == '__main__':
     client.run(discord_key)

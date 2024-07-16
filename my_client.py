@@ -1,7 +1,7 @@
 import discord
 from discord import app_commands
 
-MY_SERVER_ID = discord.Object(id=789648712838021170)
+MY_SERVER_ID = discord.Object(id=709287381668462652)
 
 class EclipsedGroovy(discord.Client):
     def __init__(self, *, intents: discord.Intents):
