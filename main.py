@@ -22,7 +22,7 @@ async def on_message(message):
         return
 
     if message.content.startswith('!genshin'):
-        await message.channel.send('Genshin Sucks Balls Guppy')
+        await message.channel.send('Genshin Sucks Balls Jacey-Poo!!!!')
 
 
 @client.tree.command()
