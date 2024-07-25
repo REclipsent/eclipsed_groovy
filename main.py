@@ -5,6 +5,7 @@ import random
 import json
 from my_client import EclipsedGroovy
 from functions import roll_agent, roll_champion
+from role_types import LeagueRole, ValorantAgentRole
 import discord
 
 intents = discord.Intents.default()
@@ -30,22 +31,22 @@ async def hello(ctx: discord.Interaction):
     await ctx.response.send_message('Hello!')
 
 @client.tree.command()
-async def agent(ctx: discord.Interaction, agent_role: str = None):
-    rolled_agent = roll_agent(agent_role)
+async def agent(ctx: discord.Interaction, agent_role: ValorantAgentRole = None):
+    rolled_agent = roll_agent(agent_role.name)
     if agent_role is None:
         print(f'{ctx.user} has rolled {rolled_agent} in the agent roll')
     else:
-        print(f'{ctx.user} has rolled {rolled_agent} in the agent roll with {agent_role}')
+        print(f'{ctx.user} has rolled {rolled_agent} in the agent roll with {agent_role.name}')
     await ctx.response.send_message(f'You Rolled {rolled_agent}')
 
 
 @client.tree.command()
-async def champion(ctx: discord.Interaction, champion_role: str = None):
-    rolled_champion = roll_champion(champion_role)
+async def champion(ctx: discord.Interaction, champion_role: LeagueRole = None):
+    rolled_champion = roll_champion(champion_role.name)
     if champion_role is None:
         print(f'{ctx.user} has rolled {rolled_champion} in the champion roll')
     else:
-        print(f'{ctx.user} has rolled {rolled_champion} in the champion roll with {champion_role}')
+        print(f'{ctx.user} has rolled {rolled_champion} in the champion roll with {champion_role.name}')
     await ctx.response.send_message(f'You Rolled {rolled_champion}')
 
 
