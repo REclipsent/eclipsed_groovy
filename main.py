@@ -23,7 +23,9 @@ async def on_message(message):
         return
 
     if message.content.startswith('!genshin'):
-        await message.channel.send('Genshin Sucks Balls Jacey-Poo!!!!')
+        await message.channel.send('Download Genshin Impact on PC for free and reach the '
+                                   'milestones to support the stream! Use code '
+                                   'GENSHINGIFT to get in-game rewards! ***')
 
 
 @client.tree.command()
