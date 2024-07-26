@@ -34,20 +34,23 @@ async def hello(ctx: discord.Interaction):
 
 @client.tree.command()
 async def agent(ctx: discord.Interaction, agent_role: ValorantAgentRole = None):
-    rolled_agent = roll_agent(agent_role.name)
     if agent_role is None:
+        rolled_agent = roll_agent()
         print(f'{ctx.user} has rolled {rolled_agent} in the agent roll')
     else:
+        rolled_agent = roll_agent(agent_role.name)
         print(f'{ctx.user} has rolled {rolled_agent} in the agent roll with {agent_role.name}')
+
     await ctx.response.send_message(f'You Rolled {rolled_agent}')
 
 
 @client.tree.command()
 async def champion(ctx: discord.Interaction, champion_role: LeagueRole = None):
-    rolled_champion = roll_champion(champion_role.name)
     if champion_role is None:
+        rolled_champion = roll_champion()
         print(f'{ctx.user} has rolled {rolled_champion} in the champion roll')
     else:
+        rolled_champion = roll_champion(champion_role.name)
         print(f'{ctx.user} has rolled {rolled_champion} in the champion roll with {champion_role.name}')
     await ctx.response.send_message(f'You Rolled {rolled_champion}')
 
