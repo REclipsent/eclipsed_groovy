@@ -1,5 +1,6 @@
 from json import load
 from random import choice
+from role_types import Map, Side
 
 
 def roll_agent(role: str = None):
@@ -60,3 +61,10 @@ def roll_champion(role: str = None):
         return choice(json_data)["Name"]
     except ValueError:
         return choice(json_data)["Name"]
+
+
+def roll_strat(map: Map, side: Side):
+    with open('./strats.json', 'r') as f:
+        json_data = load(f)
+
+    return choice(list(filter(lambda strat: side.name == strat["Side"] and map.name == strat["Map"], json_data)))

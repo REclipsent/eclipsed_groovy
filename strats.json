@@ -1,0 +1,254 @@
+﻿[
+  {
+    "Name": "Bucky Blast",
+    "Description": "Everyone must use buckys",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "You know what the Russians did in WW2?",
+    "Description": "Make groups of 2 and 3 with one person as the \"leader\" in each group and they buy a good gun while the others rock pistols. You then follow the \"leader\" and pickup their gun on death",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Hot Potato",
+    "Description": "The Person Holding the Spike can not move. The only way to move the spike is to pass it to your friends",
+    "Map": "Any",
+    "Side": "Attacking"
+  },
+  {
+    "Name": "Pay it forward",
+    "Description": "Everyone buys the person below them on the scoreboard a gun. Bottem frag dosen't have to buy anyone and top frag can't buy any gun for themselves",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Communisum",
+    "Description": "The person with the most money needs to buy everyone",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Spacial Reload",
+    "Description": "In order to reload your gun you need to pass through a teleporter",
+    "Map": "Bind",
+    "Side": "Both"
+  },
+  {
+    "Name": "Hard Read",
+    "Description": "Everyone has to stack the same site",
+    "Map": "Any",
+    "Side": "Defending"
+  },
+  {
+    "Name": "Marhshel Madness",
+    "Description": "Everyone must use marhsels",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "\"I don't know how to work this thing\"",
+    "Description": "One person is the elected \"Reloader.\" No one else can reload their gun and must pass it to the Reloader. If the Reloader dies a new person is elected and must carry on the legacy",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Mr.President",
+    "Description": "Bottem Frager must carry spike and must have it out at all times. The rest of the team must protect them. If they die you all must kill youselfs in shame. If the President plants they can use their pistol.",
+    "Map": "Any",
+    "Side": "Attacking"
+  },
+  {
+    "Name": "Tabbed Out",
+    "Description": "No one can move from the spawn postions until the end of preround",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Human Centipede",
+    "Description": "Everyone must follow the top fragger in a straight line",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Rolling Thunder",
+    "Description": "Everyone must buy odins or ares",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Over-Confident",
+    "Description": "Top fragger must only use sheriff",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Willing Sacrifice",
+    "Description": "We have angered the Valorant Gods(tenz) we must sacrifice our bottom fragger to the enemy team as repentence. Tk if they don't accept their role in the universe",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Trash Talk",
+    "Description": "Bottem Fragger needs to type insults to enemy team in all chat. Team can decide the message (Within Reason)",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "One-In-The-Chamber",
+    "Description": "All agents must only have 1 bullet in the mag at a time",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Divine Revelation",
+    "Description": "Bottem fragger has a vision and decides which site to go",
+    "Map": "Any",
+    "Side": "Attacking"
+  },
+  {
+    "Name": "Demonic Posession",
+    "Description": "Everyone must speak in impressions for the duration of the round",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Thrifty! (Captialism)",
+    "Description": "Person with most money is only one allowed to buy. The rest must find hand-outs",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Door Stuck!",
+    "Description": "Close all the doors",
+    "Map": "Ascent",
+    "Side": "Both"
+  },
+  {
+    "Name": "COD",
+    "Description": "You can't walk ONLY RUN!!!!",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "The Ninja Way",
+    "Description": "You can't stop walking for any reason. If you start running you have to immediately return to where you started running",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Professionals have Standards",
+    "Description": "Only use Snipers. Be polite. Be efficent.",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Brain Rot",
+    "Description": "You can't speak words. Communication is limited to grunts and motioning with your character",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Musicaly Inspired",
+    "Description": "You can only speak in song",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Paranoid",
+    "Description": "You must prefire all corners",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Cursed Speech",
+    "Description": "If anyone says rotate for any reason all players must rotate around 3 times before being able to move again",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "It can also do this",
+    "Description": "All players must use a gun with an alt-fire and exlusivly use it throughout the whole round",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Victory Cry",
+    "Description": "Whenever you get a kill you must let out a mighty roar/catchphrase",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Chat is this real?",
+    "Description": "First to die must commentate whats happening for the rest of the round",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Faking",
+    "Description": "Bottem fragger takes bomb and solo pushes a site while the rest of team hard pushes another",
+    "Map": "Any",
+    "Side": "Attacking"
+  },
+  {
+    "Name": "Designated Defuser",
+    "Description": "The only person allowed to defuse is the person who is closest to the bottom of scoreboard",
+    "Map": "Any",
+    "Side": "Defending"
+  },
+  {
+    "Name": "Freeze Kill",
+    "Description": "Upon getting a kill you are stuck in place until someone comes to take your place",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "CS:GO",
+    "Description": "You can't use abilites this round",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Fair Game",
+    "Description": "You have to annouce all of your movements and positions in all chat",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Clear Line",
+    "Description": "Any time you want to take the zipline in mid you need to annouce it in all chat",
+    "Map": "Fracture",
+    "Side": "Both"
+  },
+  {
+    "Name": "I'm Scared to go Alone",
+    "Description": "The entire living team is required to go across the zipline at the same time. Everytime.",
+    "Map": "Fracture",
+    "Side": "Both"
+  },
+  {
+    "Name": "Just Rush Mid",
+    "Description": "Rush Mid",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Free Parking",
+    "Description": "Nothing unique. Play Normal",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Pistol round",
+    "Description": "Bonus Pistol Round! Only use pistols",
+    "Map": "Any",
+    "Side": "Both"
+  },
+  {
+    "Name": "Untitled Goose",
+    "Description": "Run the Untitled Goose Desktop app for the round (it's not a virus) at: https://samperson.itch.io/desktop-goose?download",
+    "Map": "Any",
+    "Side": "Both"
+  }
+]
